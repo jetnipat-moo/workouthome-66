@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    /* fonts */
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;    
+}
+body{
+    background:rgb(31, 41, 55)
+}
+@media (min-width: 992px) {
+  .navbar-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.nav-item:hover {
+    color: #ffffff;    
+    background-color: rgb(87, 107, 136);
+    border-radius: 5px;   
+}
+/* Equipment */
+.carousel-item {
+  height: 10px;
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.carousel-image-1{
+    background-image:url("https://www.powerreform.com/wp-content/uploads/2022/06/DUMBBELL-ADJUSTABLE-DX-100DX-200-MS-%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B21-1.jpg");
+    background-size:center;
+}
+.carousel-image-2{
+    background-image:url("https://article.tcdc.or.th/uploads/article-detail-img/tmp/lv7PTlUVfVIyFJN2rN7hgNxUJJfnCMvbnEdVM83a.jpeg?21062021063334");
+    background-size:center;
+}
+.carousel-image-3{
+    background-image:url("https://down-th.img.susercontent.com/file/sg-11134201-7qvft-lk1yufxzhg8bd0");
+    background-size:center;
+}
+.carousel-image-4{
+    background-image:url("https://www.neighborsport.com/img/product/102228.jpg");
+    background-size:center;
+}
+.carousel-image-5{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw8muRD8TTsUQZifk5LRNc09ZpG54_buESbQ&s");
+    background-size:center;
+}
+.carousel-caption{
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    border-radius: 10px;
+}
+.carousel-item{
+    height: 1000px;
+}
+#about{
+    min-height:200px;
+}
+/* ข้อมูล */
+.section-benefit {
+  background-color: #2c3853;
+  padding: 20px;
+  border-radius: 20px;
+  color : white;
+}
+/* หัวข้อ */
+.section-topic{
+  color : white;
+  background-color :#2c3853;
+  border-radius: 18px;
+}
+.main-box {
+  background: linear-gradient(to left, #b1cee0, #aeb4b8); 
+  padding: 40px;
+  border-radius:20px;
+  position:absolute;
+  width: 100%;  
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1); 
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px; 
+}
+.card {
+  background-color: white;
+  border-radius: 12px;
+  border:none;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(22, 20, 27, 0.05);
+  width: 320px;
+  height: 240px;
+}
+.container-fluid.main-box { 
+  padding-left:24px; 
+  padding-right:24px; 
+}
+/*สัญลักษณ์กลุ่มห้ามแตะ*/
+.zio {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/736x/7f/43/e2/7f43e2a91abb5520a07318f146f39449.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#aboutw{
+    min-height:200px;
+    position: relative;
+    background-image:url("https://lumiere-a.akamaihd.net/v1/images/din-djarin-the-mandalorian-main_38344f24.jpeg?region=106%2C64%2C1622%2C1215");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    color:aliceblue;
+    text-align: center;
+}
+#nutrition-showcase-5groups {
+    color: #0099ff;
+}
+#aboutd{
+    min-height:100px;
+    position: relative;
+    background-image:url("https://i.redd.it/ark-the-animated-series-back-story-vs-baki-hanma-son-of-v0-wcp56xmsxguc1.jpg?width=1280&format=pjpg&auto=webp&s=fb121eea8b269cac558caf2077de009821a47e6e");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    color:aliceblue;
+    text-align: center;
+}
+
+.modal.fade .modal-dialog {
+    transform: translateY(40px);
+    transition: transform 0.25s ease-out;
+}
+
+.modal.show .modal-dialog {
+    transform: translateY(0);
+}
+
+.nav-link.active {
+  background-color: rgba(73, 137, 233, 0.664);
+  border-radius: 5px;
+  color: white !important;
+}
+.nav-link.active1 {
+  background-color: rgb(43, 102, 53);
+  border-radius: 5px;
+  color: #FFD700 !important;
+}
+
+.video-box {
+  width: 100%;
+  max-width: 800px; /* หรือกำหนดตามต้องการ */
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #000;
+}
+.video-wrapper {
+  position: relative;
+  padding-top: 56.25%;  /* อัตราส่วน 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

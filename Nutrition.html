@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nutrition</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark ">
+<div class="container">
+<a href="#" class="navbar-brand">เว็บแนะนำออกกำลังกายที่บ้าน</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+<span class="navbar-toggler-icon"></span>
+</button>
+</div>
+
+
+<div id="navbar1" class="collapse navbar-collapse justify-content-center">
+<ul class="navbar-nav">
+<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="warm.html" class="nav-link">WarmUp</a></li>
+<li class="nav-item"><a href="strength.html" class="nav-link">Strength</a></li>
+<li class="nav-item"><a href="cardio.html" class="nav-link">Cardio</a></li>
+<li class="nav-item"><a href="Flexibility.html" class="nav-link">Flexibility</a></li>
+<li class="nav-item"><a href="Equipment.html" class="nav-link">Equipment</a></li>
+<li class="nav-item"><a href="Nutrition.html" class="nav-link active" >Nutrition</a></li>
+<li class="nav-item"><a href="zio.html" class="nav-link" style="color: green;">Zi-O trinity</a></li>
+</ul>
+</div>
+</nav>
+<div class="container py-5" id="nutrition-showcase-5groups">
+    <h2 class="text-center mb-4 section-title">🥗 ข้อมูล 5 หมู่โภชนาการสำหรับการออกกำลังกายที่บ้าน</h2>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+            <div class="card h-100 nutrition-card border-primary">
+                <img src="https://www.prudential.co.th/export/sites/default/prudential-th/th/.galleries/images/carbs-2-1800x1146.jpg" class="card-img-top card-cover d-block w-100 h-100" alt="Carbohydrates" >
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold card-nutrition-title text-primary">หมู่ที่ 1: คาร์โบไฮเดรต</h5>
+                    <p class="card-text mb-1"><small class="text-muted">แหล่งพลังงานหลักและเชื้อเพลิง</small></p>
+                    <p class="card-text text-description">ให้พลังงานสำหรับการเคลื่อนไหว</p>
+                    <button type="button" class="btn btn-primary btn-details" data-bs-toggle="modal" data-bs-target="#modal-carbs-5">
+                        ดูรายละเอียด
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 nutrition-card border-success">
+                <img src="https://mbrace.bnhhospital.com/wp-content/uploads/2024/01/Protein-2.jpg" class="card-img-top card-cover d-block w-100 h-100" alt="Protein">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold card-nutrition-title text-success">หมู่ที่ 2: โปรตีน</h5>
+                    <p class="card-text mb-1"><small class="text-muted">ซ่อมแซมและสร้างกล้ามเนื้อ</small></p>
+                    <p class="card-text text-description">สร้างความแข็งแกร่งและฟื้นตัว</p>
+                    <button type="button" class="btn btn-success btn-details" data-bs-toggle="modal" data-bs-target="#modal-protein-5">
+                        ดูรายละเอียด
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 nutrition-card border-warning">
+                <img src="https://www.matichon.co.th/wp-content/uploads/2017/11/Food-of-Good-Fat-2.jpg" class="card-img-top card-cover d-block w-100 h-100" alt="Fats">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold card-nutrition-title text-warning">หมู่ที่ 3: ไขมัน</h5>
+                    <p class="card-text mb-1"><small class="text-muted">พลังงานสำรองและความอบอุ่น</small></p>
+                    <p class="card-text text-description">จำเป็นต่อการทำงานของฮอร์โมน</p>
+                    <button type="button" class="btn btn-warning btn-details" data-bs-toggle="modal" data-bs-target="#modal-fats-5">
+                        ดูรายละเอียด
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 justify-content-center"> 
+        <div class="col-md-4">
+            <div class="card h-100 nutrition-card border-danger">
+                <img src="https://mw-wellness.com/wp-content/uploads/2018/12/vitamin-1024x482.jpg" class="card-img-top card-cover d-block w-100 h-100" alt="Vitamins">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold card-nutrition-title text-danger">หมู่ที่ 4: วิตามิน</h5>
+                    <p class="card-text mb-1"><small class="text-muted">ควบคุมและเร่งปฏิกิริยา</small></p>
+                    <p class="card-text text-description">ได้จากผักและผลไม้สด</p>
+                    <button type="button" class="btn btn-danger btn-details" data-bs-toggle="modal" data-bs-target="#modal-vitamins-5">
+                        ดูรายละเอียด
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 nutrition-card border-info">
+                <img src="https://static.trueplookpanya.com/tppy/member/m_612500_615000/614766/cms/images/shutterstock_533024911.jpg " class="card-img-top card-cover d-block w-100 h-100" alt="Minerals">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold card-nutrition-title text-info">หมู่ที่ 5: แร่ธาตุ</h5>
+                    <p class="card-text mb-1"><small class="text-muted">ส่วนประกอบของร่างกาย</small></p>
+                    <p class="card-text text-description">เสริมความแข็งแรงของกระดูก</p>
+                    <button type="button" class="btn btn-info btn-details" data-bs-toggle="modal" data-bs-target="#modal-minerals-5">
+                        ดูรายละเอียด
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="modal-carbs-5" tabindex="-1" aria-labelledby="modal-carbs-5-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="modal-carbs-5-label">หมู่ที่ 1: คาร์โบไฮเดรต</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://www.prudential.co.th/export/sites/default/prudential-th/th/.galleries/images/carbs-2-1800x1146.jpg" class="img-fluid rounded" alt="Carbohydrates">
+                    </div>
+                    <div class="col-md-8">
+                        <p><strong>บทบาท:</strong> แหล่งพลังงานหลักที่ร่างกายใช้ทันที โดยเฉพาะอย่างยิ่งในการออกกำลังกายที่มีความเข้มข้นสูง</p>
+                        <p><strong>ประเภทที่แนะนำ:</strong> 
+                            <ul>
+                                <li>**เชิงซ้อน:** ข้าวกล้อง, ข้าวโอ๊ต, เผือก, มัน, ธัญพืชไม่ขัดสี</li>
+                                <li>**เชิงเดี่ยว (แต่ควรจำกัด):** น้ำตาล, ขนมหวาน (ให้พลังงานเร็วแต่หมดเร็ว)</li>
+                            </ul>
+                        </p>
+                        <p><strong>ข้อแนะนำสำหรับการออกกำลังกาย:</strong> ควรทานก่อนออกกำลังกาย $1-2$ ชั่วโมง (คาร์บเชิงซ้อน) หรือ $30$ นาที (คาร์บเชิงเดี่ยวเล็กน้อย) เพื่อเพิ่มระดับไกลโคเจนในกล้ามเนื้อ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-protein-5" tabindex="-1" aria-labelledby="modal-protein-5-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title" id="modal-protein-5-label">หมู่ที่ 2: โปรตีน</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://mbrace.bnhhospital.com/wp-content/uploads/2024/01/Protein-2.jpg" class="img-fluid rounded" alt="Protein">
+                    </div>
+                    <div class="col-md-8">
+                        <p><strong>บทบาท:</strong> สร้างและซ่อมแซมเนื้อเยื่อต่างๆ ในร่างกาย รวมถึงการสร้างกล้ามเนื้อ และเอนไซม์</p>
+                        <p><strong>แหล่งที่มาหลัก:</strong> 
+                            <ul>
+                                <li>เนื้อสัตว์ไม่ติดมัน (ไก่, ปลา, เนื้อวัว)</li>
+                                <li>ไข่, นม, โยเกิร์ต</li>
+                                <li>ถั่ว, เมล็ดพืช, พืชตระกูลถั่ว (เต้าหู้, ถั่วเหลือง)</li>
+                            </ul>
+                        </p>
+                        <p><strong>ข้อแนะนำสำหรับการออกกำลังกาย:</strong> ควรทานโปรให้ได้เท่ากับน้ำหนักตัวและควบคู่กับคาร์โบไฮเดรตหลังออกกำลังกาย เพื่อช่วยในการฟื้นฟูและเสริมสร้างกล้ามเนื้อให้ได้ผลสูงสุด</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-fats-5" tabindex="-1" aria-labelledby="modal-fats-5-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-warning">
+                <h5 class="modal-title" id="modal-fats-5-label">หมู่ที่ 3: ไขมัน</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://www.matichon.co.th/wp-content/uploads/2017/11/Food-of-Good-Fat-2.jpg" class="img-fluid rounded" alt="Fats">
+                    </div>
+                    <div class="col-md-8">
+                        <p><strong>บทบาท:</strong> ให้พลังงานสำรองที่เข้มข้นที่สุด, ช่วยดูดซึมวิตามิน A, D, E, K, เป็นส่วนประกอบของเยื่อหุ้มเซลล์และฮอร์โมน</p>
+                        <p><strong>แหล่งที่มาที่ควรเน้น:</strong> 
+                            <ul>
+                                <li>**ไขมันดี (ไม่อิ่มตัว):** อะโวคาโด, ถั่วเปลือกแข็ง, น้ำมันมะกอก, ปลาทะเลน้ำลึก (โอเมก้า 3)</li>
+                                <li>**ไขมันที่ควรจำกัด:** ไขมันอิ่มตัวจากสัตว์, น้ำมันปาล์ม, และไขมันทรานส์</li>
+                            </ul>
+                        </p>
+                        <p><strong>ข้อแนะนำ:</strong> ควรทานไขมันดีในปริมาณที่พอเหมาะ เพราะให้พลังงานสูงถึง $9$ แคลอรี่ต่อกรัม</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-vitamins-5" tabindex="-1" aria-labelledby="modal-vitamins-5-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="modal-vitamins-5-label">หมู่ที่ 4: วิตามิน</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://mw-wellness.com/wp-content/uploads/2018/12/vitamin-1024x482.jpg" class="img-fluid rounded" alt="Vitamins">
+                    </div>
+                    <div class="col-md-8">
+                        <p><strong>บทบาท:</strong> เป็นโคเอนไซม์ที่ช่วยในการเร่งปฏิกิริยาเคมีต่างๆ ในร่างกาย เช่น การเปลี่ยนอาหารเป็นพลังงาน, การสร้างเซลล์เม็ดเลือด</p>
+                        <p><strong>แหล่งที่มาหลัก:</strong> ผักและผลไม้สดทุกชนิด</p>
+                        <p><strong>วิตามินที่สำคัญในการออกกำลังกาย:</strong> 
+                            <ul>
+                                <li>**วิตามิน C & E:** เป็นสารต้านอนุมูลอิสระ ลดการอักเสบหลังออกกำลังกาย</li>
+                                <li>**วิตามิน B (รวม):** ช่วยในการเผาผลาญคาร์โบไฮเดรตและไขมันให้เป็นพลังงาน</li>
+                                <li>**วิตามิน D:** สำคัญต่อการดูดซึมแคลเซียมและสุขภาพกล้ามเนื้อ</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-minerals-5" tabindex="-1" aria-labelledby="modal-minerals-5-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="modal-minerals-5-label">หมู่ที่ 5: แร่ธาตุ</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://static.trueplookpanya.com/tppy/member/m_612500_615000/614766/cms/images/shutterstock_533024911.jpg" class="img-fluid rounded" alt="Minerals">
+                    </div>
+                    <div class="col-md-8">
+                        <p><strong>บทบาท:</strong> เป็นส่วนประกอบของโครงสร้างร่างกาย (กระดูกและฟัน) และช่วยควบคุมสมดุลของเหลวในร่างกาย</p>
+                        <p><strong>แหล่งที่มาหลัก:</strong> ผักใบเขียว, นม, เนื้อสัตว์, เกลือ (ในปริมาณที่เหมาะสม)</p>
+                        <p><strong>แร่ธาตุที่สำคัญในการออกกำลังกาย:</strong> 
+                            <ul>
+                                <li>**แคลเซียม:** เสริมสร้างกระดูกและการหดตัวของกล้ามเนื้อ</li>
+                                <li>**เหล็ก:** เป็นส่วนประกอบของฮีโมโกลบินในการขนส่งออกซิเจน</li>
+                                <li>**โซเดียมและโพแทสเซียม:** (อิเล็กโทรไลต์) รักษาความสมดุลของน้ำและช่วยการทำงานของเส้นประสาทและกล้ามเนื้อ</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="text-center text-white ">
+<h1>ตัวอย่างวิดีโอแนะนำโภชนาการสำหรับการออกกำลังกายที่บ้าน</h1>
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SWjv8vZpClY?loop=1&playlist=SWjv8vZpClY&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</body>
+</html>
+</html>
